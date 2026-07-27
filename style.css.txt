@@ -1,0 +1,348 @@
+
+ =======================================================
+   サガンの季節 Official Website
+   Version  β1
+
+   Design Concept
+   -------------------------------------------------------
+   - Inspired by early 2000s official websites
+   - Quiet
+   - Minimal
+   - Summer
+   - Book-like white space
+======================================================= 
+
+
+ =======================================================
+   Base
+======================================================= 
+
+{
+    margin0;
+    padding0;
+    box-sizingborder-box;
+}
+
+html{
+
+    background#F7F6F2;
+
+}
+
+body{
+
+    color#444444;
+
+    font-family
+        Yu Mincho,
+        Hiragino Mincho ProN,
+        serif;
+
+    font-size15px;
+
+    line-height1.9;
+
+}
+
+
+ =======================================================
+   Layout
+======================================================= 
+
+.wrapper{
+
+    width800px;
+
+    margin70px auto 80px;
+
+    text-aligncenter;
+
+}
+
+
+ =======================================================
+   Header
+======================================================= 
+
+header{
+
+    margin-bottom55px;
+
+}
+
+header h1{
+
+    font-size34px;
+
+    font-weightnormal;
+
+    letter-spacing0.08em;
+
+    margin-bottom42px;
+
+}
+
+.cover{
+
+    displayblock;
+
+    width240px;
+
+    margin0 auto 38px;
+
+}
+
+.release{
+
+    font-size13px;
+
+    color#666666;
+
+    letter-spacing0.12em;
+
+}
+
+
+ =======================================================
+   Navigation
+======================================================= 
+
+nav{
+
+    margin65px auto;
+
+    width260px;
+
+    border-top1px solid #D6D6D6;
+
+    border-bottom1px solid #D6D6D6;
+
+    padding28px 0;
+
+}
+
+nav a{
+
+    displayblock;
+
+    color#0033CC;
+
+    text-decorationnone;
+
+    margin14px 0;
+
+    transition0.15s;
+
+}
+
+nav ahover{
+
+    text-decorationunderline;
+
+}
+
+.current{
+
+    displayblock;
+
+    color#555555;
+
+    margin14px 0;
+
+}
+
+ =======================================================
+   Footer
+======================================================= 
+
+footer{
+
+    margin-top70px;
+
+    padding-top28px;
+
+    border-top1px solid #D6D6D6;
+
+    font-size12px;
+
+    color#777777;
+
+    line-height2.0;
+
+}
+
+footer p{
+
+    margin-bottom18px;
+
+}
+
+footer plast-child{
+
+    margin-bottom0;
+
+}
+
+
+ =======================================================
+   Common Page Layout
+======================================================= 
+
+main{
+
+    text-alignleft;
+
+    margin55px auto 0;
+
+    width700px;
+
+}
+
+section{
+
+    margin-bottom70px;
+
+}
+
+h2{
+
+    font-size22px;
+
+    font-weightnormal;
+
+    letter-spacing0.08em;
+
+    margin-bottom28px;
+
+}
+
+h3{
+
+    font-size18px;
+
+    font-weightnormal;
+
+    margin-bottom18px;
+
+}
+
+p{
+
+    margin-bottom18px;
+
+}
+
+
+ =======================================================
+   Music
+======================================================= 
+
+.track{
+
+    margin-bottom30px;
+
+}
+
+.track-title{
+
+    font-size18px;
+
+}
+
+.track-duration{
+
+    color#777777;
+
+    font-size13px;
+
+}
+
+
+ =======================================================
+   Lyrics
+======================================================= 
+
+.lyric{
+
+    white-spacepre-line;
+
+    line-height2.1;
+
+}
+
+
+ =======================================================
+   Link
+======================================================= 
+
+.link-list{
+
+    list-stylenone;
+
+    text-aligncenter;
+
+}
+
+.link-list li{
+
+    margin18px 0;
+
+}
+
+.link-list a{
+
+    color#0033CC;
+
+    text-decorationnone;
+
+}
+
+.link-list ahover{
+
+    text-decorationunderline;
+
+}
+
+
+ =======================================================
+   Afterword
+======================================================= 
+
+.afterword{
+
+    text-alignleft;
+
+    line-height2.2;
+
+}
+
+
+ =======================================================
+   Image
+======================================================= 
+
+img{
+
+    max-width100%;
+
+    heightauto;
+
+}
+
+
+ =======================================================
+   Selection
+======================================================= 
+
+selection{
+
+    background#D9E6FF;
+
+    color#333333;
+
+}
+
+
+ =======================================================
+   End
+======================================================= 

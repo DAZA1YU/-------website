@@ -1,0 +1,250 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Music | サガンの季節</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="music-page">
+
+    <div class="wrapper">
+
+        <header>
+
+            <h1>Listening</h1>
+
+        </header>
+
+        <main>
+
+            <section class="track-list">
+
+                <div class="track">
+
+    <span class="track-title">
+        1. エメラルドの瞳
+    </span>
+
+    <button
+        class="play-btn"
+        onclick="toggleTrack(this,'emerald')">
+        [ play ]
+    </button>
+
+</div>
+
+<div class="player">
+
+    <div class="progress">
+        <div class="progress-fill"></div>
+    </div>
+
+    <div class="time">
+        0:00 / 0:00
+    </div>
+
+</div>
+
+                <div class="track">
+
+    <span class="track-title">2. ニコル</span>
+
+    <button
+        class="play-btn"
+        onclick="toggleTrack(this,'nicole')">
+        [ play ]    
+    </button>
+
+</div>
+
+<div class="player">
+
+    <div class="progress">
+        <div class="progress-fill"></div>
+    </div>
+
+    <div class="time">
+        0:00 / 0:00
+    </div>
+
+</div>
+
+                <div class="track">
+
+    <span class="track-title">3. Analog.</span>
+
+    <button
+        class="play-btn"
+        onclick="toggleTrack(this,'analog')">
+        [ play ]
+    </button>
+
+</div>
+
+<div class="player">
+
+    <div class="progress">
+        <div class="progress-fill"></div>
+    </div>
+
+    <div class="time">
+        0:00 / 0:00
+    </div>
+
+</div>
+
+                <div class="track">
+
+    <span class="track-title">4. サガンの季節</span>
+
+    <button
+        class="play-btn"
+        onclick="toggleTrack(this,'sagan')">
+        [ play ]
+    </button>
+
+</div>
+
+                <div class="player">
+
+    <div class="progress">
+        <div class="progress-fill"></div>
+    </div>
+
+    <div class="time">
+        0:00 / 0:00
+    </div>
+
+</div>
+
+                <div class="track">
+
+    <span class="track-title">5. 清澄白河wave</span>
+
+    <button
+        class="play-btn"
+        onclick="toggleTrack(this,'kiyosumi')">
+        [ play ]
+    </button>
+
+</div>
+
+                <div class="player">
+
+    <div class="progress">
+        <div class="progress-fill"></div>
+    </div>
+
+    <div class="time">
+        0:00 / 0:00
+    </div>
+
+</div>
+
+                <div class="track">
+
+    <span class="track-title">6. 燃える空</span>
+
+    <button
+        class="play-btn"
+        onclick="toggleTrack(this,'moeru')">
+        [ play ]
+    </button>
+
+</div>
+
+                <div class="player">
+
+    <div class="progress">
+        <div class="progress-fill"></div>
+        <div class="progress-head"></div>
+    </div>
+
+    <div class="time">
+        0:00 / 0:00
+    </div>
+
+</div>
+
+            </section>
+
+    <!-- 曲一覧 -->
+
+    <audio id="emerald">
+        <source src="audio/emerald.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="nicole">
+        <source src="audio/nicole.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="analog">
+        <source src="audio/analog.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="sagan">
+        <source src="audio/sagan.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="kiyosumi">
+        <source src="audio/kiyosumi.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="moeru">
+        <source src="audio/moeru.mp3" type="audio/mpeg">
+    </audio>
+
+        </main>
+
+<nav class="sub-nav">
+
+    <a href="index.html">Home</a>
+
+    <span class="current">Listening</span>
+
+    <a href="lyrics.html">Lyrics</a>
+
+    <a href="links.html">Links</a>
+
+    <a href="afterword.html">Log</a>
+
+</nav>
+
+
+        <footer>
+
+            <p>
+                Last Update<br>
+                2026.09.xx
+            </p>
+
+            <p>
+                Visitor<br>
+                00000001
+            </p>
+
+            <p>
+                © 2026 DAZA1
+            </p>
+
+            <p>
+                Best viewed with Internet Explorer 6.0 or later.
+            </p>
+
+        </footer>
+
+    </div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
